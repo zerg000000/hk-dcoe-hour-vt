@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00a4db9c-e9e0-4c7e-9acb-16a43d0eb947" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hour-vt/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="622">
+              <caret line="127" column="47" lean-forward="true" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/test.csv" />
+        <option value="$PROJECT_DIR$/test2016.csv" />
+        <option value="$PROJECT_DIR$/src/tika_test/core.clj" />
+        <option value="$PROJECT_DIR$/src/hour-vt/core.clj" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="62" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="tika-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tika-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="ReplState" timestamp="1508036137638">{:repl-history {:ide [], :local [{:command &quot;(foo)&quot;, :offset 5, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:import (org.apache.tika Tika)\n           (org.apache.tika.sax ToXMLContentHandler)\n           (org.apache.tika.parser.pdf PDFParser)\n           (org.apache.tika.metadata Metadata)))\n\n(def ch (ToXMLContentHandler.))\n(def p (PDFParser.))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parse p file ch (Metadata.))))&quot;, :offset 388, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:import (org.apache.tika Tika)\n           (org.apache.tika.sax ToXMLContentHandler)\n           (org.apache.tika.parser.pdf PDFParser)\n           (org.apache.tika.metadata Metadata)))\n\n(def ch (ToXMLContentHandler.))\n(def p (PDFParser.))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [file (clojure.java.io/input-stream \&quot;test.pdf\&quot;)]\n    (.parse p file ch (Metadata.))))\n&quot;, :offset 397, :ns &quot;tika-test.core&quot;} {:command &quot;(foo \&quot;\&quot;)&quot;, :offset 8, :ns &quot;tika-test.core&quot;} {:command &quot;(.toString ch)&quot;, :offset 14, :ns &quot;tika-test.core&quot;} {:command &quot;(spit \&quot;result.html\&quot; (.toString ch))&quot;, :offset 35, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:import (org.apache.tika Tika)))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))&quot;, :offset 201, :ns &quot;tika-test.core&quot;} {:command &quot;(foo nil)&quot;, :offset 8, :ns &quot;tika-test.core&quot;} {:command &quot;(spit \&quot;result.txt\&quot; *1)&quot;, :offset 22, :ns &quot;tika-test.core&quot;} {:command &quot;(foo nil)\n     &quot;, :offset 15, :ns &quot;tika-test.core&quot;} {:command &quot;(def t *1)&quot;, :offset 10, :ns &quot;tika-test.core&quot;} {:command &quot;(require '[clojure.string :as string])&quot;, :offset 38, :ns &quot;tika-test.core&quot;} {:command &quot;(def ts (string/split t \&quot;NO. OF ELECTORS\&quot;))&quot;, :offset 43, :ns &quot;tika-test.core&quot;} {:command &quot;(def ts (string/split t #\&quot;NO\\. OF ELECTORS\&quot;))&quot;, :offset 45, :ns &quot;tika-test.core&quot;} {:command &quot;ts&quot;, :offset 2, :ns &quot;tika-test.core&quot;} {:command &quot;(def lines (first ts))&quot;, :offset 22, :ns &quot;tika-test.core&quot;} {:command &quot;(string/split-lines lines)&quot;, :offset 26, :ns &quot;tika-test.core&quot;} {:command &quot;(filter string/blank? (string/split-lines lines))&quot;, :offset 49, :ns &quot;tika-test.core&quot;} {:command &quot;(filter (compose not string/blank?) (string/split-lines lines))&quot;, :offset 63, :ns &quot;tika-test.core&quot;} {:command &quot;(filter (comp not string/blank?) (string/split-lines lines))&quot;, :offset 60, :ns &quot;tika-test.core&quot;} {:command &quot;(def lines (filter (comp not string/blank?) (string/split-lines lines)))&quot;, :offset 72, :ns &quot;tika-test.core&quot;} {:command &quot;(count (filter (= \&quot;VOTER  \&quot;) lines))&quot;, :offset 36, :ns &quot;tika-test.core&quot;} {:command &quot;(count (filter #(= % \&quot;VOTER  \&quot;) lines))&quot;, :offset 39, :ns &quot;tika-test.core&quot;} {:command &quot;(count lines)&quot;, :offset 13, :ns &quot;tika-test.core&quot;} {:command &quot;(- 79 12 12 13)&quot;, :offset 15, :ns &quot;tika-test.core&quot;} {:command &quot;2&quot;, :offset 1} {:command &quot;(- 79 12 12 12)&quot;, :offset 15, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(def column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(def page-dummy-row 13)\n(def page-head-offset 9)\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [page-head-offset station-count]\n                   :voter-p [(+ page-head-offset station-count) station-count]\n                   :station-code [(+ page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (map (fn [[k [offset sample]]]\n           [k (take sample (drop offset lines))])\n         parse-map)))\n\n\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 1489, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(def page-dummy-row 13)\n(def page-head-offset 9)\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [page-head-offset station-count]\n                   :voter-p [(+ page-head-offset station-count) station-count]\n                   :station-code [(+ page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (map (fn [[k [offset sample]]]\n           [k (take sample (drop offset lines))])\n         parse-map)))\n\n\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 1490, :ns &quot;tika-test.core&quot;} {:command &quot;(parse-count lines)&quot;, :offset 19, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(def page-dummy-row 13)\n(def page-head-offset 9)\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :voter-p [(+ 1 page-head-offset station-count) station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (map (fn [[k [offset sample]]]\n           [k (take sample (drop offset lines))])\n         parse-map)))\n\n\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 1559, :ns &quot;tika-test.core&quot;} {:command &quot;(parse-page (first ts))&quot;, :offset 23, :ns &quot;tika-test.core&quot;} {:command &quot;(into {} *1)&quot;, :offset 12, :ns &quot;tika-test.core&quot;} {:command &quot;(def v *1)&quot;, :offset 10, :ns &quot;tika-test.core&quot;} {:command &quot;(map (fn [vr vrp sc sn]\n       {:voter vr :voter-p vrp :station-code sc :station-name sn})\n     (:voter v)\n     (:voter-p v)\n     (:station-code v)\n     (:station-name v))&quot;, :offset 171, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(def page-dummy-row 13)\n(def page-head-offset 9)\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :voter-p [(+ 1 page-head-offset station-count) station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter voter-p station-code station-name]}]\n  (let [time-slot (string/split time #\&quot;\\s+\&quot;)]\n    (map (fn [vr vrp sc sn]\n           {:voter (zipmap time-slot (string/split vr #\&quot;\\s+\&quot;))\n            :voter-p (zipmap time-slot (string/split vrp #\&quot;\\s+\&quot;))\n            :station-code sc\n            :station-name sn})\n         voter voter-p station-code station-name)))\n\n\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 1982, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(def page-dummy-row 13)\n(def page-head-offset 9)\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :voter-p [(+ 1 page-head-offset station-count) station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter voter-p station-code station-name]}]\n  (let [time-slot (string/split (first time) #\&quot;\\s+\&quot;)]\n    (map (fn [vr vrp sc sn]\n           {:voter (zipmap time-slot (string/split vr #\&quot;\\s+\&quot;))\n            :voter-p (zipmap time-slot (string/split vrp #\&quot;\\s+\&quot;))\n            :station-code sc\n            :station-name sn})\n         voter voter-p station-code station-name)))\n\n\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 1990, :ns &quot;tika-test.core&quot;} {:command &quot;(per-station v)&quot;, :offset 15, :ns &quot;tika-test.core&quot;} {:command &quot;(def lines (second ts))&quot;, :offset 23, :ns &quot;tika-test.core&quot;} {:command &quot;()&quot;, :offset 2} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(defn head-offset [lines]\n  (first\n    (filter (fn [[idx line]]\n              (string/includes? line \&quot;累積每時段投票人數摘要\&quot;))\n            (map-indexed (fn [idx l]\n                           [idx l])\n                         lines))))\n\n(def page-dummy-row 13)\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        page-head-offset (inc (head-offset lines))\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :voter-p [(+ 1 page-head-offset station-count) station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter voter-p station-code station-name]}]\n  (let [time-slot (string/split (first time) #\&quot;\\s+\&quot;)]\n    (map (fn [vr vrp sc sn]\n           {:voter (zipmap time-slot (string/split vr #\&quot;\\s+\&quot;))\n            :voter-p (zipmap time-slot (string/split vrp #\&quot;\\s+\&quot;))\n            :station-code sc\n            :station-name sn})\n         voter voter-p station-code station-name)))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 2240, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(defn head-offset [lines]\n  (ffirst\n    (filter (fn [[idx line]]\n              (string/includes? line \&quot;累積每時段投票人數摘要\&quot;))\n            (map-indexed (fn [idx l]\n                           [idx l])\n                         lines))))\n\n(def page-dummy-row 13)\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        page-head-offset (inc (head-offset lines))\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :voter-p [(+ 1 page-head-offset station-count) station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter voter-p station-code station-name]}]\n  (let [time-slot (string/split (first time) #\&quot;\\s+\&quot;)]\n    (map (fn [vr vrp sc sn]\n           {:voter (zipmap time-slot (string/split vr #\&quot;\\s+\&quot;))\n            :voter-p (zipmap time-slot (string/split vrp #\&quot;\\s+\&quot;))\n            :station-code sc\n            :station-name sn})\n         voter voter-p station-code station-name)))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 2241, :ns &quot;tika-test.core&quot;} {:command &quot;lines&quot;, :offset 5, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(defn head-offset [lines]\n  (ffirst\n    (filter (fn [[idx line]]\n              (string/includes? line \&quot;累積每時段投票人數摘要\&quot;))\n            (map-indexed (fn [idx l]\n                           [idx l])\n                         lines))))\n\n(def page-dummy-row 14)\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        page-head-offset (inc (head-offset lines))\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :voter-p [(+ 1 page-head-offset station-count) station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter voter-p station-code station-name]}]\n  (let [time-slot (string/split (first time) #\&quot;\\s+\&quot;)]\n    (map (fn [vr vrp sc sn]\n           {:voter (zipmap time-slot (string/split vr #\&quot;\\s+\&quot;))\n            :voter-p (zipmap time-slot (string/split vrp #\&quot;\\s+\&quot;))\n            :station-code sc\n            :station-name sn})\n         voter voter-p station-code station-name)))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 2241, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(defn head-offset [lines]\n  (ffirst\n    (filter (fn [[idx line]]\n              (string/includes? line \&quot;累積每時段投票人數摘要\&quot;))\n            (map-indexed (fn [idx l]\n                           [idx l])\n                         lines))))\n\n(defn page-dummy-row [lines]\n  (if (some #(string/includes? % \&quot;PAGE:\&quot;) lines)\n    14\n    13))\n\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        page-head-offset (inc (head-offset lines))\n        page-dummy-row (page-dummy-row lines)\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :voter-p [(+ 1 page-head-offset station-count) station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter voter-p station-code station-name]}]\n  (let [time-slot (string/split (first time) #\&quot;\\s+\&quot;)]\n    (map (fn [vr vrp sc sn]\n           {:voter (zipmap time-slot (string/split vr #\&quot;\\s+\&quot;))\n            :voter-p (zipmap time-slot (string/split vrp #\&quot;\\s+\&quot;))\n            :station-code sc\n            :station-name sn})\n         voter voter-p station-code station-name)))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 2358, :ns &quot;tika-test.core&quot;} {:command &quot;(def lines (nth ts 3))&quot;, :offset 22, :ns &quot;tika-test.core&quot;} {:command &quot;(doc merge-with)&quot;, :offset 16, :ns &quot;tika-test.core&quot;} {:command &quot;(clojure.repl/doc merge-with)&quot;, :offset 29, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(defn head-offset [lines]\n  (ffirst\n    (filter (fn [[idx line]]\n              (string/includes? line \&quot;累積每時段投票人數摘要\&quot;))\n            (map-indexed (fn [idx l]\n                           [idx l])\n                         lines))))\n\n(defn page-dummy-row [lines]\n  (if (some #(string/includes? % \&quot;PAGE:\&quot;) lines)\n    14\n    13))\n\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        page-head-offset (inc (head-offset lines))\n        page-dummy-row (page-dummy-row lines)\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter voter-p station-code station-name]}]\n  (let [time-slot (string/split (first time) #\&quot;\\s+\&quot;)]\n    (map (fn [vr vrp sc sn]\n           {:voter (zipmap time-slot (string/split\n                                       (string/trim vr)\n                                       #\&quot;\\s+\&quot;))\n            :station-code (string/trim sc)\n            :station-name (string/trim sn)})\n         voter voter-p station-code station-name)))\n\n(d)\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 2336, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(defn head-offset [lines]\n  (ffirst\n    (filter (fn [[idx line]]\n              (string/includes? line \&quot;累積每時段投票人數摘要\&quot;))\n            (map-indexed (fn [idx l]\n                           [idx l])\n                         lines))))\n\n(defn page-dummy-row [lines]\n  (if (some #(string/includes? % \&quot;PAGE:\&quot;) lines)\n    14\n    13))\n\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        page-head-offset (inc (head-offset lines))\n        page-dummy-row (page-dummy-row lines)\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter voter-p station-code station-name]}]\n  (let [time-slot (string/split (first time) #\&quot;\\s+\&quot;)]\n    (map (fn [vr vrp sc sn]\n           {:voter (zipmap time-slot (string/split\n                                       (string/trim vr)\n                                       #\&quot;\\s+\&quot;))\n            :station-code (string/trim sc)\n            :station-name (string/trim sn)})\n         voter voter-p station-code station-name)))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 2331, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(defn head-offset [lines]\n  (ffirst\n    (filter (fn [[idx line]]\n              (string/includes? line \&quot;累積每時段投票人數摘要\&quot;))\n            (map-indexed (fn [idx l]\n                           [idx l])\n                         lines))))\n\n(defn page-dummy-row [lines]\n  (if (some #(string/includes? % \&quot;PAGE:\&quot;) lines)\n    14\n    13))\n\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        page-head-offset (inc (head-offset lines))\n        page-dummy-row (page-dummy-row lines)\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter station-code station-name]}]\n  (let [time-slot (string/split (first time) #\&quot;\\s+\&quot;)]\n    (map (fn [vr vrp sc sn]\n           {:voter (zipmap time-slot (string/split\n                                       (string/trim vr)\n                                       #\&quot;\\s+\&quot;))\n            :station-code (string/trim sc)\n            :station-name (string/trim sn)})\n         voter station-code station-name)))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 2315, :ns &quot;tika-test.core&quot;} {:command &quot;(parse-page lines)&quot;, :offset 18, :ns &quot;tika-test.core&quot;} {:command &quot;(per-station *1)&quot;, :offset 16, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (foo nil)) \n    (map parse-page)\n    (map per-station))&quot;, :offset 72, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn split-page [text]\n  (string/split text #\&quot;NO\\. OF ELECTORS\&quot;))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(defn head-offset [lines]\n  (ffirst\n    (filter (fn [[idx line]]\n              (string/includes? line \&quot;累積每時段投票人數摘要\&quot;))\n            (map-indexed (fn [idx l]\n                           [idx l])\n                         lines))))\n\n(defn page-dummy-row [lines]\n  (if (some #(string/includes? % \&quot;PAGE:\&quot;) lines)\n    14\n    13))\n\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        page-head-offset (inc (head-offset lines))\n        page-dummy-row (page-dummy-row lines)\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter station-code station-name]}]\n  (let [time-slot (string/split (first time) #\&quot;\\s+\&quot;)]\n    (mapcat (fn [vr sc sn]\n              {:voter (zipmap time-slot (string/split\n                                          (string/trim vr)\n                                          #\&quot;\\s+\&quot;))\n               :station-code (string/trim sc)\n               :station-name (string/trim sn)})\n            voter station-code station-name)))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 2400, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (foo nil)) \n    (map (comp per-station parse-page)))&quot;, :offset 69, :ns &quot;tika-test.core&quot;} {:command &quot;(ns tika-test.core\n  (:require [clojure.string :as string])\n  (:import (org.apache.tika Tika)))\n\n(defn split-page [text]\n  (string/split text #\&quot;NO\\. OF ELECTORS\&quot;))\n\n(defn column-count [lines]\n  (count (filter #(= % \&quot;VOTER  \&quot;) lines)))\n\n(defn head-offset [lines]\n  (ffirst\n    (filter (fn [[idx line]]\n              (string/includes? line \&quot;累積每時段投票人數摘要\&quot;))\n            (map-indexed (fn [idx l]\n                           [idx l])\n                         lines))))\n\n(defn page-dummy-row [lines]\n  (if (some #(string/includes? % \&quot;PAGE:\&quot;) lines)\n    14\n    13))\n\n(def magic-number 6)\n\n(defn parse-page [page]\n  (let [lines (filter (comp not string/blank?)\n                      (string/split-lines page))\n        page-head-offset (inc (head-offset lines))\n        page-dummy-row (page-dummy-row lines)\n        cols (column-count lines)\n        station-count (/ (- (count lines) page-dummy-row (* 2 cols))\n                         magic-number)\n        parse-map {:time [page-head-offset 1]\n                   :voter [(+ page-head-offset\n                              1)\n                           station-count]\n                   :station-code [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2)\n                                  station-count]\n                   :station-name [(+ 1 page-head-offset\n                                     (* 2 station-count)\n                                     (* 2 cols)\n                                     2\n                                     station-count)\n                                  station-count]}]\n    (into {}\n          (map (fn [[k [offset sample]]]\n                 [k (take sample (drop offset lines))])\n               parse-map))))\n\n(defn per-station [{:keys [time voter station-code station-name]}]\n  (let [time-slot (string/split (first time) #\&quot;\\s+\&quot;)]\n    (map (fn [vr sc sn]\n           {:voter (zipmap time-slot (string/split\n                                       (string/trim vr)\n                                       #\&quot;\\s+\&quot;))\n            :station-code (string/trim sc)\n            :station-name (string/trim sn)})\n         voter station-code station-name)))\n\n(defn foo\n  \&quot;I don't do a whole lot.\&quot;\n  [x]\n  (let [tika (Tika.)\n        file (clojure.java.io/file \&quot;test.pdf\&quot;)]\n    (.parseToString tika file)))\n&quot;, :offset 2379, :ns &quot;tika-test.core&quot;} {:command &quot;*1&quot;, :offset 2, :ns &quot;tika-test.core&quot;} {:command &quot;*e&quot;, :offset 2, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (foo nil)) \n    (mapcat (comp per-station parse-page)))&quot;, :offset 72, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (foo nil))\n    (filter #(not (string/includes? % \&quot;TOTAL\&quot;)))\n    (mapcat (comp per-station parse-page)))&quot;, :offset 120, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (foo nil))\n    (filter #(not (string/includes? % \&quot;TOTAL\&quot;)))\n    (mapcat (comp per-station parse-page))\n    (group-by :station-code))&quot;, :offset 149, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (foo nil))\n    (filter #(not (string/includes? % \&quot;TOTAL\&quot;)))\n    (mapcat (comp per-station parse-page))\n    (group-by :station-code)\n    (map (fn [[code votes]]\n           (let [all-votes (apply merge (map :voter votes))]\n             [code all-votes]))))&quot;, :offset 271, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (pdf-&gt;text nil))\n    (filter #(not (string/includes? % \&quot;TOTAL\&quot;)))\n    (mapcat (comp per-station parse-page))\n    (group-by :station-code)\n    (map (fn [[code votes]]\n           (let [all-votes (apply merge (map :voter votes))\n                 station (first votes)]\n             [code (:station-name station) all-votes]))))&quot;, :offset 340, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (pdf-&gt;text \&quot;test.pdf\&quot;))\n    (filter #(not (string/includes? % \&quot;TOTAL\&quot;)))\n    (mapcat (comp per-station parse-page))\n    (group-by :station-code)\n    (map (fn [[code votes]]\n           (let [all-votes (apply merge (map :voter votes))\n                 station (first votes)]\n             [code (:station-name station) all-votes]))))&quot;, :offset 347, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (pdf-&gt;text \&quot;test.pdf\&quot;))\n    (filter #(not (string/includes? % \&quot;TOTAL\&quot;)))\n    (mapcat (comp per-station parse-page))\n    (group-by :station-code)\n    (map (fn [[code votes]]\n           (let [all-votes (sorted-map (apply merge (map :voter votes)))\n                 station (first votes)]\n             (concat\n               [code \n                (:station-name station)\n                all-votes]\n               (vals all-votes))))))\n              &quot;, :offset 449, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (pdf-&gt;text \&quot;test.pdf\&quot;))\n    (filter #(not (string/includes? % \&quot;TOTAL\&quot;)))\n    (mapcat (comp per-station parse-page))\n    (group-by :station-code)\n    (map (fn [[code votes]]\n           (let [all-votes (apply merge (map :voter votes))\n                 station (first votes)]\n             (concat\n               [code \n                (:station-name station)\n                all-votes]\n               (vals all-votes))))))\n              &quot;, :offset 436, :ns &quot;tika-test.core&quot;} {:command &quot;(sorted-map {\&quot;18:30\&quot; \&quot;971\&quot;,\n             \&quot;12:30\&quot; \&quot;307\&quot;,\n             \&quot;11:30\&quot; \&quot;181\&quot;,\n             \&quot;08:30\&quot; \&quot;8\&quot;,\n             \&quot;14:30\&quot; \&quot;537\&quot;,\n             \&quot;21:30\&quot; \&quot;1,227\&quot;,\n             \&quot;22:30\&quot; \&quot;1,314\&quot;,\n             \&quot;17:30\&quot; \&quot;853\&quot;,\n             \&quot;13:30\&quot; \&quot;427\&quot;,\n             \&quot;16:30\&quot; \&quot;752\&quot;,\n             \&quot;15:30\&quot; \&quot;653\&quot;,\n             \&quot;10:30\&quot; \&quot;84\&quot;,\n             \&quot;20:30\&quot; \&quot;1,138\&quot;,\n             \&quot;19:30\&quot; \&quot;1,054\&quot;,\n             \&quot;09:30\&quot; \&quot;34\&quot;})&quot;, :offset 424, :ns &quot;tika-test.core&quot;} {:command &quot;(apply sorted-map {\&quot;18:30\&quot; \&quot;971\&quot;,\n                   \&quot;12:30\&quot; \&quot;307\&quot;,\n                   \&quot;11:30\&quot; \&quot;181\&quot;,\n                   \&quot;08:30\&quot; \&quot;8\&quot;,\n                   \&quot;14:30\&quot; \&quot;537\&quot;,\n                   \&quot;21:30\&quot; \&quot;1,227\&quot;,\n                   \&quot;22:30\&quot; \&quot;1,314\&quot;,\n                   \&quot;17:30\&quot; \&quot;853\&quot;,\n                   \&quot;13:30\&quot; \&quot;427\&quot;,\n                   \&quot;16:30\&quot; \&quot;752\&quot;,\n                   \&quot;15:30\&quot; \&quot;653\&quot;,\n                   \&quot;10:30\&quot; \&quot;84\&quot;,\n                   \&quot;20:30\&quot; \&quot;1,138\&quot;,\n                   \&quot;19:30\&quot; \&quot;1,054\&quot;,\n                   \&quot;09:30\&quot; \&quot;34\&quot;})&quot;, :offset 514, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (pdf-&gt;text \&quot;test.pdf\&quot;))\n    (filter #(not (string/includes? % \&quot;TOTAL\&quot;)))\n    (mapcat (comp per-station parse-page))\n    (group-by :station-code)\n    (map (fn [[code votes]]\n           (let [all-votes (apply merge (map :voter votes))\n                 station (first votes)]\n             (concat\n               [code \n                (:station-name station)\n                all-votes]\n               (map \n                 (fn [h]\n                   (get all-votes h))\n                 [\&quot;08:30\&quot;\n                  \&quot;09:30\&quot;\n                  \&quot;10:30\&quot;\n                  \&quot;11:30\&quot;\n                  \&quot;12:30\&quot;\n                  \&quot;13:30\&quot;\n                  \&quot;14:30\&quot;\n                  \&quot;15:30\&quot;\n                  \&quot;16:30\&quot;\n                  \&quot;17:30\&quot;\n                  \&quot;18:30\&quot;\n                  \&quot;19:30\&quot;\n                  \&quot;20:30\&quot;\n                  \&quot;21:30\&quot;\n                  \&quot;22:30\&quot;]))))))\n                  \n                  \n                  \n                 \n                \n               \n              &quot;, :offset 880, :ns &quot;tika-test.core&quot;} {:command &quot;(-&gt;&gt; (split-page (pdf-&gt;text \&quot;test.pdf\&quot;))\n    (filter #(not (string/includes? % \&quot;TOTAL\&quot;)))\n    (mapcat (comp per-station parse-page))\n    (group-by :station-code)\n    (map (fn [[code votes]]\n           (let [all-votes (apply merge (map :voter votes))\n                 station (first votes)]\n             (concat\n               [code \n                (:station-name station)]\n               (map \n                 (fn [h]\n                   (get all-votes h))\n                 [\&quot;08:30\&quot;\n                  \&quot;09:30\&quot;\n                  \&quot;10:30\&quot;\n                  \&quot;11:30\&quot;\n                  \&quot;12:30\&quot;\n                  \&quot;13:30\&quot;\n                  \&quot;14:30\&quot;\n                  \&quot;15:30\&quot;\n                  \&quot;16:30\&quot;\n                  \&quot;17:30\&quot;\n                  \&quot;18:30\&quot;\n                  \&quot;19:30\&quot;\n                  \&quot;20:30\&quot;\n                  \&quot;21:30\&quot;\n                  \&quot;22:30\&quot;]))))))\n                  \n                  \n                  \n                 \n                \n               \n              &quot;, :offset 854, :ns &quot;tika-test.core&quot;}], :remote []}}</component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Clojure REPL.REPL for tika-test">
+    <configuration name="REPL for tika-test" type="ClojureREPL" factoryName="Local" temporary="true">
+      <setting name="replType" value="1" />
+      <module name="tika-test" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for tika-test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00a4db9c-e9e0-4c7e-9acb-16a43d0eb947" name="Default" comment="" />
+      <created>1507907033337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507907033337</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.50463575" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.49536425" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Multi-OS Engine" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tika/tika-core/1.16/tika-core-1.16.jar!/org/apache/tika/sax/ToXMLContentHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="56" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19261" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6515">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="490" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2016.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2080">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="237" column="6" lean-forward="false" selection-start-line="237" selection-start-column="3" selection-end-line="237" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hour-vt/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="127" column="47" lean-forward="true" selection-start-line="127" selection-start-column="47" selection-end-line="127" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/intro.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
